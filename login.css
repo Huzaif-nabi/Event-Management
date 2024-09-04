@@ -1,0 +1,139 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: black;
+    color: white;
+    letter-spacing: 1px;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.abril-fatface-regular {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .birthstone-bounce-regular {
+    font-family: "Birthstone Bounce", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .birthstone-bounce-medium {
+    font-family: "Birthstone Bounce", cursive;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+
+.header h2{
+    font-family: "Abril Fatface";
+}
+
+.header p{
+    font-family: "Birthstone Bounce";
+    color: #5DC743;
+}
+
+.container-left{
+    margin-top: 60px;
+    display: inline-block;
+}
+
+.averia-serif-libre-light {
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .averia-serif-libre-regular {
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .averia-serif-libre-bold {
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .averia-serif-libre-light-italic {
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .averia-serif-libre-regular-italic {
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .averia-serif-libre-bold-italic {
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+
+.container-left p{
+    margin-top: 40px;
+    font-family: "Averia Serif Libre";
+}
+
+.passion-one-regular {
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .passion-one-bold {
+    font-family: "Passion One", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .passion-one-black {
+    font-family: "Passion One", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+.container-left h1{
+    font-family: "Passion One";
+}
+
+.container-left button{
+    margin-top: 40px;
+    width: 145px;
+    height: 45px;
+    border-radius: 8px;
+}
+
+.container-right{
+    float: right;
+    background-color: antiquewhite;
+}
+
+.vid1{
+    width: 300px;
+    height: 300px;
+}
+
+.vid2{
+    
+    width: 400px;
+    height: 300px;
+}
+
+
+button{
+    background-color: #5DC743;
+    border: 0px;
+    font-family: "Inter";
+}
