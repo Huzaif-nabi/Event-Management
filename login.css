@@ -1,14 +1,16 @@
 *{
     padding: 0px;
     margin: 0px;
+    
 }
 
 body{
+    height: 100%;
     background-color: black;
     color: white;
     letter-spacing: 1px;
-    margin-left: 50px;
-    margin-top: 40px;
+    margin-left: 70px;
+    margin-top: 50px;
 }
 
 .abril-fatface-regular {
@@ -29,8 +31,13 @@ body{
     font-style: normal;
   }
   
+  .header{
+    display: inline-block;
+    /* border: solid 1px green; */
+  }
 
 .header h2{
+    font-size: 30px;
     font-family: "Abril Fatface";
 }
 
@@ -40,8 +47,10 @@ body{
 }
 
 .container-left{
+    
     margin-top: 60px;
     display: inline-block;
+    /* border: solid 1px green; */
 }
 
 .averia-serif-libre-light {
@@ -106,6 +115,7 @@ body{
   
 .container-left h1{
     font-family: "Passion One";
+    font-size: 50px;
 }
 
 .container-left button{
@@ -115,25 +125,65 @@ body{
     border-radius: 8px;
 }
 
-.container-right{
+
+.video-grid {
+    margin-right: 260px;
     float: right;
-    background-color: antiquewhite;
-}
-
-.vid1{
-    width: 300px;
-    height: 300px;
-}
-
-.vid2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
     
-    width: 400px;
-    height: 300px;
 }
 
+video {
+    /* border: solid 2px green; */
+    border-radius: 14px;
+    object-fit: cover;
+}
+
+.vid1 {
+    margin-right: 15px;
+    margin-bottom: 15px;
+    grid-column-start: 1;
+  grid-column-end: 3;
+    width: 200px;
+    height: 200px;
+}
+
+.vid2 {
+    width: 150px;
+    height: 200px;
+}
+
+.vid3 {
+    margin-right: 5px;
+    width: 97px;
+    height: 150px;
+
+}
+
+.vid4 {
+    margin-right: 15px;
+    width: 98px;
+    height: 150px;
+}
+
+.vid5 {
+    width: 150px;
+    height: 150px;
+    
+}
+
+.inter-xyz {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
 
 button{
     background-color: #5DC743;
     border: 0px;
-    font-family: "Inter";
+    font-weight: bold;
 }
+
