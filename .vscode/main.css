@@ -52,4 +52,21 @@
 
 .main-01-a{
     background-color: blueviolet;
+    display: inline-block;
+    margin-left: 70px;
+    margin-top: 170px;
+}
+
+.main-01-a h1{
+font-size: 65px;    
+}
+
+.main-01-a p{
+    padding-top: 70px;
+    font-size: 25px;
+}
+
+.main-01-b{
+    display: inline-block;
+    background-color: rgb(177, 110, 22);
 }
