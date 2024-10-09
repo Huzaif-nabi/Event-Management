@@ -47,7 +47,7 @@ body{
 }
 
 .container button{
-    background-color: #5DC743;
+    background-color: #405C8A;
     color: #fff;
     font-size: 12px;
     padding: 10px 45px;
@@ -61,7 +61,7 @@ body{
 }
 
 .container button.hidden{
-    border-color: #5DC743;
+    border-color: #405C8A;
 }
 
 .container form{
