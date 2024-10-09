@@ -43,7 +43,7 @@ body{
 
 .header p{
     font-family: "Birthstone Bounce";
-    color: #5DC743;
+    color: #405C8A;
 }
 
 .container-left{
@@ -175,7 +175,7 @@ video {
 }
 
 button{
-    background-color: #5DC743;
+    background-color: #405C8A;
     border: 0px;
     font-weight: bold;
 }

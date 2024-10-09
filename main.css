@@ -166,7 +166,6 @@ body {
 .nav-bar{
     margin-right: 50px;
     margin-top: 50px;
-    display: inline-block;
     float: right;
     /* background-color: rgb(208, 255, 127); */
     
@@ -317,9 +316,6 @@ font-family: "Passion One";
 
 .main-04-b{
     font-size: 20px;
-    display: inline-block;
-    /* background-color:aliceblue; */
-    /* margin-left: 400px; */
     float: right;
     margin-top: 150px;
     margin-right: 100px;
@@ -436,7 +432,7 @@ font-family: "Passion One";
 .socials{
     color: white;
     float: right;
-    display: inline-block;
+    /* display: inline-block; */
     font-size: 20px;
     margin-top: 65px;
     font-family: "Cantarell";
