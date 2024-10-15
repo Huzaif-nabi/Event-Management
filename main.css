@@ -2,10 +2,15 @@
     padding: 0px;
     margin: 0px;
     letter-spacing: 1px;
+    box-sizing: border-box;
 }
 
 body {
     overflow: auto;  
+  }
+
+  body::-webkit-scrollbar {
+    display: none;
   }
   
   .abril-fatface-regular {
@@ -137,9 +142,7 @@ body {
   
   
 
-  body::-webkit-scrollbar {
-    display: none;
-  }
+ 
 
 .main-01{
     background: linear-gradient(#405C8A, #111824);
@@ -229,7 +232,7 @@ font-family: "Passion One";
     position:absolute;
     margin-top: 80px;
     margin-left: 35px;
-    width : 600px;
+    width : 500px;
     height : 530px;
 }
 
@@ -315,6 +318,7 @@ font-family: "Passion One";
 }
 
 .main-04-b{
+  /* background-color: paleturquoise; */
     font-size: 20px;
     float: right;
     margin-top: 150px;
@@ -348,10 +352,11 @@ font-family: "Passion One";
 .photo-grid{
     margin-top: 40px;
     margin-left: 20px;
-    width: 1200px;
+    width: 1250px;
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
+    /* background-color: antiquewhite; */
 }
 
 .photo-grid img{
