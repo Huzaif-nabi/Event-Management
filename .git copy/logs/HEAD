@@ -1,0 +1,12 @@
+0000000000000000000000000000000000000000 ef44db8a1899850010e866b1ede7f918e1b0d16e Huzaif <138498920+Huzaif-nabi@users.noreply.github.com> 1727892926 +0530	clone: from https://github.com/Huzaif-nabi/Event-Management.git
+ef44db8a1899850010e866b1ede7f918e1b0d16e 679b223586372cca64e2601b3ce3ed693388418b Huzaif <138498920+Huzaif-nabi@users.noreply.github.com> 1727893067 +0530	checkout: moving from main to huzaif-branch
+679b223586372cca64e2601b3ce3ed693388418b 743e0b4563a11e93d7310e493a99d80c73633ee6 Huzaif <138498920+Huzaif-nabi@users.noreply.github.com> 1727899149 +0530	commit: Added Main Page
+743e0b4563a11e93d7310e493a99d80c73633ee6 ef44db8a1899850010e866b1ede7f918e1b0d16e Huzaif <138498920+Huzaif-nabi@users.noreply.github.com> 1727899404 +0530	checkout: moving from huzaif-branch to main
+ef44db8a1899850010e866b1ede7f918e1b0d16e 743e0b4563a11e93d7310e493a99d80c73633ee6 Huzaif <138498920+Huzaif-nabi@users.noreply.github.com> 1727899418 +0530	merge huzaif-branch: Fast-forward
+743e0b4563a11e93d7310e493a99d80c73633ee6 743e0b4563a11e93d7310e493a99d80c73633ee6 Huzaif <138498920+Huzaif-nabi@users.noreply.github.com> 1727899520 +0530	checkout: moving from main to huzaif-branch
+743e0b4563a11e93d7310e493a99d80c73633ee6 1719a9fa5fbacda516b279e41448565ffee0f84e Huzaif <138498920+Huzaif-nabi@users.noreply.github.com> 1727902960 +0530	commit: added in main
+1719a9fa5fbacda516b279e41448565ffee0f84e 743e0b4563a11e93d7310e493a99d80c73633ee6 Huzaif <138498920+Huzaif-nabi@users.noreply.github.com> 1727902992 +0530	checkout: moving from huzaif-branch to main
+743e0b4563a11e93d7310e493a99d80c73633ee6 1719a9fa5fbacda516b279e41448565ffee0f84e Huzaif <138498920+Huzaif-nabi@users.noreply.github.com> 1727903000 +0530	merge huzaif-branch: Fast-forward
+1719a9fa5fbacda516b279e41448565ffee0f84e 1719a9fa5fbacda516b279e41448565ffee0f84e Huzaif <138498920+Huzaif-nabi@users.noreply.github.com> 1727903035 +0530	checkout: moving from main to huzaif-branch
+1719a9fa5fbacda516b279e41448565ffee0f84e e7557903b5dea319323df71a0654d1ab891686b1 Huzaif <138498920+Huzaif-nabi@users.noreply.github.com> 1727907414 +0530	checkout: moving from huzaif-branch to Darshan-branch
+e7557903b5dea319323df71a0654d1ab891686b1 1719a9fa5fbacda516b279e41448565ffee0f84e Huzaif-nabi <huzaif.nabi22@spit.ac.in> 1729839982 +0530	checkout: moving from Darshan-branch to huzaif-branch

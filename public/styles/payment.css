@@ -1,0 +1,314 @@
+
+
+.abril-fatface-regular {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .birthstone-bounce-regular {
+    font-family: "Birthstone Bounce", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .birthstone-bounce-medium {
+    font-family: "Birthstone Bounce", cursive;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .averia-serif-libre-light {
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .averia-serif-libre-regular {
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .averia-serif-libre-bold {
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .averia-serif-libre-light-italic {
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .averia-serif-libre-regular-italic {
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .averia-serif-libre-bold-italic {
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  .passion-one-regular {
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .passion-one-bold {
+    font-family: "Passion One", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .passion-one-black {
+    font-family: "Passion One", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  .carattere-regular {
+    font-family: "Carattere", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+.catamaran-regular {
+  font-family: "Catamaran", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inter-abc {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inclusive-sans-regular {
+    font-family: "Inclusive Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .inclusive-sans-regular-italic {
+    font-family: "Inclusive Sans", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  .cantarell-regular {
+    font-family: "Cantarell", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .cantarell-bold {
+    font-family: "Cantarell", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .cantarell-regular-italic {
+    font-family: "Cantarell", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .cantarell-bold-italic {
+    font-family: "Cantarell", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  * {
+    padding: 0;
+    margin: 0;
+    letter-spacing: 1px;
+    box-sizing: border-box; 
+    letter-spacing: 1px;
+    
+}
+
+body {
+    overflow: auto; 
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+  
+.main{
+  display: flex;
+}
+
+.main-01 {
+    background: linear-gradient(90deg, #111824 -4.1%, #1C293D 4.64%, #283A57 55.61%);
+    width: 100%;
+    height: 100px;
+    color: white;
+    display: flex; /* Flexbox for better alignment */
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.icon-bar {
+    display: inline-block;
+    /* background-color: blueviolet; */
+}
+
+.icon-bar h2 {
+    font-family: "Abril Fatface", sans-serif;
+    margin-bottom: 5px;
+}
+
+.icon-bar p {
+    font-family: "Birthstone Bounce", cursive;
+}
+
+.nav-bar{
+    width: 700px;
+    height: 60px;
+    /* background-color: aquamarine; */
+   
+}
+
+.nav-bar ul {
+    display: flex; /* Flexbox for better alignment */
+    justify-content: space-between;
+    /* background-color: burlywood; */
+    height: 60px;
+    display: flex;
+    list-style: none;
+}
+
+.nav-bar li {
+    font-size:20px;
+    font-family: "Inclusive Sans", sans-serif;
+}
+
+.nav-bar li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+
+#li01, #li02, #li03, #li04 {
+    padding-top: 20px;
+}
+
+.profile {
+    color: white;
+    /* background-color: rgb(127, 151, 38); */
+    background: linear-gradient(180deg, #2C3F5D 29.14%, #5C84C3 83.14%);
+    border: 0px solid ;
+    border-radius: 50%;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-bottom: 3px;
+    
+}
+
+.nav-bar span {
+    /* background-color: rgb(194, 124, 32); */
+     font-size: 35px; /*Adjust the size as needed */
+    vertical-align: middle; /* To vertically align with text */
+    padding-top: 1px;
+    
+}
+
+.main-02 {
+    /* background-color: aquamarine; */
+    width: 700px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.main-02 label, .main-02 p {
+    display: inline; /* Display both elements inline */
+}
+
+label{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.main-02 p {
+    /* background-color: antiquewhite; */
+    margin-left: 40px; /* Space between h2 and p */
+    text-align: center;
+}
+
+.main-03{
+    /* background-color: #5C84C3; */
+    width: 700px;
+    margin-left: 100px;
+    margin-top: 90px;
+    border: 1px solid black;
+    margin-bottom: 70px;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.main-03 label{
+    margin-top: 100px;
+}
+
+.radio{
+    background-color: rgb(216, 216, 216);
+    height: 80px;
+    width: 500px;
+    padding-top: 30px;
+    padding-left: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    font-size: large;
+}
+
+.main-04{
+  /* background-color: violet; */
+  float: right;
+  width: 300px;
+ height: 300px;
+ margin-left: 100px;
+ margin-top: 140px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ padding-left: 20px;
+ border-radius: 15px;
+ background-color: rgb(237, 236, 236);
+}
+
+.left{
+  display: flex;
+  flex-direction: column;
+}
+
+.total{
+  color: #2d4f86;
+}
+
+button{
+  position: absolute;
+  margin-left: 980px;
+  margin-top: 490px;
+  width: 130px;
+  height: 50px;
+  border-radius: 20px;
+  border: 0px;
+  color: white;
+  background-color:  #2C3F5D;
+  font-size: large;
+}
+
