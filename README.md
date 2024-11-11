@@ -11,7 +11,9 @@ Node.js (v14 or later)
 npm (comes with Node.js)
 
 git clone https://github.com/your-username/event-management-system.git
+
 cd event-management-system
+
 npm install
 
 To start the application, run the following command:
