@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Birthstone+Bounce:wght@400;500&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Passion+One:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=person" />
+    <link href="https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&family=Carattere&family=Catamaran:wght@100..900&family=Inclusive+Sans:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/landing2.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main-01">
+      <div class="icon-bar">
+        <h2>EVENTIA</h2>
+        <p>We create great memories</p>
+      </div>
+      <div class="nav-bar">
+        <ul>
+          <li id="li01"><a href="#">Home</a></li>
+          <li id="li02"><a href="Event-cat.html">Events</a></li>
+          <li id="li03"><a href="#">My Events</a></li>
+          <li id="li04"><a href="#">Contact Us</a></li>
+          <a class="profile" href="#">
+            <span class="material-symbols-outlined">
+                person
+                </span>
+        </a>
+        </ul>
+      </div>
+      <div class="main-01-a">
+        <h1>
+          Simplify your Event <br />
+          Planning <br />with us
+        </h1>
+        <p>
+          A great plan and a great arrangement leads to a <br />
+          mesmorising and remembrable experience. Come join <br />
+          with us and make ur event memorable
+        </p>
+      </div>
+
+      <div class="main-01-b">
+        <video autoplay loop muted src="banner-intro.webm"></video>
+      </div>
+    </div>
+
+    <div class="main-02">
+      <p>
+        Unleash your creativity while we handle the details, ensuring every
+        moment shines. <br />From intimate gatherings to grand celebrations, we
+        tailor each event to perfection
+      </p>
+      <br />
+      <p class="sec-para">
+        Our team of dedicated professionals will bring your vision to life,
+        seamlessly and stress-free. <br />
+        Experience the joy of your special day without any of the worries—just
+        cherish the moments. <br />
+        Let us craft an unforgettable story together, one that you and your
+        guests will treasure <br />
+        forever
+      </p>
+    </div>
+
+    <div class="main-03">
+      <p>The simplest way to host all your events</p>
+      <div class="video-grid-01">
+        <video autoplay loop muted src="wv2.mp4"></video>
+        <video autoplay loop muted src="office.mp4"></video>
+      </div>
+      <a href="Event-cat.html">"<button><h4>EXPLORE</h4></button></a>
+    </div>
+
+    <div class="main-04">
+      <div class="main-04-a">
+        <h1>
+          Plan, run, and analyze <br />
+          your event— all from <br />
+          one place
+        </h1>
+      </div>
+      <div class="main-04-b">
+        <p>
+          No more switching between tools, no more tedious tasks. <br> Eventia is the
+          fully customizable event management platform that <br> lets you
+          handle everything—from planning and organizing 
+         <br> your event to
+          managing vendors and tracking its success, brall in one place.
+        </p>
+      </div>
+    </div>
+
+    <div class="main-05">
+      <h1>What We Offer</h1>
+      <p>Key Features</p>
+      <div class="photo-grid">
+        <img src="pic1.jpg" alt="" />
+        <img src="pic2.webp" alt="" />
+        <img src="pic3.jpg" alt="" />
+        <h3>Calender & Scheduling</h3>
+        <h3>Guest Management</h3>
+        <h3>Personalised Planning</h3>
+      </div>
+      <a href="Event-cat.html">"<button><h4>EXPLORE</h4></button></a>
+    </div>
+
+    <!-- <div class="main-06">
+      <h1>Ready to manage your events? <br />smarter, better</h1>
+      <button><h4>GET STARTED</h4></button>
+    </div> -->
+
+    <!-- use flaticon for images -->
+
+    <div class="main-07">
+      <img src="mail.png" alt="" />
+      <p class="mail-id"><a href="#">groupproject@gmail.com</a></p>
+      <a href="#"><img class="twitter" src="twitter2.png" alt="" /></a>
+      <a href="#"><img class="facebook" src="facebook2.png" alt="" /></a>
+      <a href="#"><img class="instagram" src="insta2.png" alt="" /></a>
+      <p class="socials">Follow Us On</p>
+    </div>
+    <!-- Your existing code... -->
+
+  <!-- Your existing code... -->
+
+  <!-- Success Message Modal for Registration -->
+  <div class="modal" id="successModal">
+    <div class="modal-content">
+      <span class="close" id="closeModal">&times;</span>
+      <h2>User Registered Successfully</h2>
+      <p>Thank you for signing up! We're excited to help you plan your events.</p>
+    </div>
+  </div>
+
+  <!-- Success Message Modal for Sign In -->
+  <div class="modal" id="signinSuccessModal">
+    <div class="modal-content">
+      <span class="close" id="closeSigninModal">&times;</span>
+      <h2>Signed In Successfully</h2>
+      <p>Welcome back! You're signed in and ready to start planning your events.</p>
+    </div>
+  </div>
+
+  <script>
+    // Show modal on page load (if necessary)
+    window.onload = function() {
+      const urlParams = new URLSearchParams(window.location.search);
+      if (urlParams.has('registered')) {
+        document.getElementById('successModal').style.display = 'block';
+      }
+      if (urlParams.has('signedin')) {
+        document.getElementById('signinSuccessModal').style.display = 'block';
+      }
+    }
+
+    // Close modal functionality
+    document.querySelectorAll('.close').forEach(span => {
+      span.onclick = function() {
+        span.parentElement.parentElement.style.display = 'none';
+      }
+    });
+
+    // Close modal when clicking outside of the modal content
+    window.onclick = function(event) {
+      const modals = [document.getElementById('successModal'), document.getElementById('signinSuccessModal')];
+      modals.forEach(modal => {
+        if (event.target === modal) {
+          modal.style.display = 'none';
+        }
+      });
+    }
+  </script>
+  </body>
+</html>

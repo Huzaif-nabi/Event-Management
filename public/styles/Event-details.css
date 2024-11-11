@@ -1,0 +1,373 @@
+* {
+    padding: 0;
+    margin: 0;
+    letter-spacing: 1px;
+    box-sizing: border-box; /* To ensure consistent padding/margin */
+    letter-spacing: 1px;
+}
+
+body {
+    overflow: auto; 
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+.encode-sans-sc-abcd {
+  font-family: "Encode Sans SC", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.abril-fatface-regular {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .birthstone-bounce-regular {
+    font-family: "Birthstone Bounce", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .birthstone-bounce-medium {
+    font-family: "Birthstone Bounce", cursive;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .averia-serif-libre-light {
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .averia-serif-libre-regular {
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .averia-serif-libre-bold {
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .averia-serif-libre-light-italic {
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .averia-serif-libre-regular-italic {
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .averia-serif-libre-bold-italic {
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  .passion-one-regular {
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .passion-one-bold {
+    font-family: "Passion One", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .passion-one-black {
+    font-family: "Passion One", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  .carattere-regular {
+    font-family: "Carattere", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+.catamaran-regular {
+  font-family: "Catamaran", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inter-abc {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inclusive-sans-regular {
+    font-family: "Inclusive Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .inclusive-sans-regular-italic {
+    font-family: "Inclusive Sans", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  .cantarell-regular {
+    font-family: "Cantarell", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .cantarell-bold {
+    font-family: "Cantarell", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .cantarell-regular-italic {
+    font-family: "Cantarell", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .cantarell-bold-italic {
+    font-family: "Cantarell", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+.main-01 {
+    background: linear-gradient(90deg, #111824 -4.1%, #1C293D 4.64%, #283A57 55.61%);
+    width: 100%;
+    height: 120px;
+    color: white;
+    display: flex; /* Flexbox for better alignment */
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.icon-bar {
+    display: inline-block;
+    /* background-color: blueviolet; */
+}
+
+.icon-bar h2 {
+    font-family: "Abril Fatface", sans-serif;
+    margin-bottom: 5px;
+}
+
+.icon-bar p {
+    font-family: "Birthstone Bounce", cursive;
+}
+
+.nav-bar{
+    width: 800px;
+    height: 60px;
+    /* background-color: aquamarine; */
+}
+
+.nav-bar ul {
+    display: flex; /* Flexbox for better alignment */
+    justify-content: space-between;
+    /* background-color: burlywood; */
+    height: 60px;
+    /* padding-top: 10px; */
+    display: flex;
+    list-style: none;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.nav-bar li {
+    padding-right: 50px;
+    font-size: x-large;
+    font-family: "Inclusive Sans", sans-serif;
+}
+
+.nav-bar li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+
+#li01, #li02, #li03, #li04 {
+    padding-top: 20px;
+}
+
+.profile {
+    color: white;
+    /* background-color: rgb(127, 151, 38); */
+    background: linear-gradient(180deg, #2C3F5D 29.14%, #5C84C3 83.14%);
+
+    border: 0px solid ;
+    border-radius: 50%;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-bottom: 3px;
+    
+}
+
+.nav-bar span {
+    /* background-color: rgb(194, 124, 32); */
+    font-size: 35px; /* Adjust the size as needed */
+    vertical-align: middle; /* To vertically align with text */
+    padding-top: 1px;
+    
+}
+
+
+.main-02 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    background: linear-gradient(#0a101c, #5C84C3);
+    height: 220vh; /* Full viewport height */
+}
+
+.view-map{
+  margin-top: 70px;
+  color: aliceblue;
+  margin-right: 300px;
+}
+
+.main-02 h1 {
+    /* background-color: #5C84C3; */
+    font-size: 50px;
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-family: "Passion One";
+}
+
+.event-container, .personal-container{
+    /* background-color: aliceblue; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 1100px;
+    justify-content: space-between;
+    /* background-color: antiquewhite;  */
+}
+
+.event-container input, .personal-container input{
+    margin-top: 50px;
+    padding-left: 15px;
+    border-radius: 10px;
+    font-size: large;
+    background: linear-gradient(90deg, #293A57 0%, #597EBD 100%);
+    border: 0px;
+    color: white;
+    height: 60px;
+
+}
+
+.main-02 button{
+  margin-top: 70px;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  border: 0px;
+  font-size: larger;
+  background: linear-gradient(90deg, #111824 -4.1%, #25354e 4.64%, #3f5b88 55.61%);
+  color: white;
+}
+
+.event-name, .event-date, .no-of-mem{
+    width: 350px;
+    
+}
+
+.event-location, .budget{
+    width: 530px;
+}
+
+.event-description, .about-yourself{
+    width: 100%;
+    margin-top: 50px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #293A57 0%, #597EBD 100%);
+    border: 0px;
+    height: 100px;
+    color: white;
+    padding-left: 15px;
+    padding-top: 15px;
+    font-size: large;
+
+}
+
+
+.name, .mobile-no, .email{
+    width: 350px;
+}
+
+.main-03{
+    background: #1E1E1E;
+    width: 100%;
+    height: 120px;
+}
+
+.main-03 img{
+    height: 40px;
+    width: 40px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.mail-id{
+    position: absolute;
+    display: inline-block;
+    margin-top: 48px;
+    margin-left: 13px;
+    font-size: 20px;
+    font-family: "Cantarell";
+}
+
+.socials{
+    color: white;
+    float: right;
+    /* display: inline-block; */
+    font-size: 20px;
+    margin-top: 48px;
+    font-family: "Cantarell";
+    /* margin-right: 500px; */
+}
+
+.main-03 a{
+    /* text-decoration: none; */
+    color: white;
+}
+
+.instagram{
+    float: right;
+    /* margin-right: 100px; */
+}
+
+.facebook{
+    float: right;
+    /* margin-right: 100px; */
+    
+}
+
+.twitter{
+    float: right;
+    margin-right: 100px;
+}

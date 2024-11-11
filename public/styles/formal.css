@@ -1,0 +1,368 @@
+* {
+    padding: 0;
+    margin: 0;
+    letter-spacing: 1px;
+    box-sizing: border-box; 
+    letter-spacing: 1px;
+    
+}
+
+body {
+    overflow: auto; 
+    background: linear-gradient(90deg, #4f3823 0%, #9B6F46 100%);
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.abril-fatface-regular {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .birthstone-bounce-regular {
+    font-family: "Birthstone Bounce", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .birthstone-bounce-medium {
+    font-family: "Birthstone Bounce", cursive;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .averia-serif-libre-light {
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .averia-serif-libre-regular {
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .averia-serif-libre-bold {
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .averia-serif-libre-light-italic {
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .averia-serif-libre-regular-italic {
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .averia-serif-libre-bold-italic {
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  .passion-one-regular {
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .passion-one-bold {
+    font-family: "Passion One", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .passion-one-black {
+    font-family: "Passion One", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  .carattere-regular {
+    font-family: "Carattere", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+.catamaran-regular {
+  font-family: "Catamaran", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inter-abc {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inclusive-sans-regular {
+    font-family: "Inclusive Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .inclusive-sans-regular-italic {
+    font-family: "Inclusive Sans", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  .cantarell-regular {
+    font-family: "Cantarell", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .cantarell-bold {
+    font-family: "Cantarell", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .cantarell-regular-italic {
+    font-family: "Cantarell", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .cantarell-bold-italic {
+    font-family: "Cantarell", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+.main-01 {
+    background: linear-gradient(90deg, #352618 0%, #9B6F46 100%);
+
+    width: 100%;
+    height: 100px;
+    color: white;
+    display: flex; /* Flexbox for better alignment */
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.icon-bar {
+    display: inline-block;
+    /* background-color: blueviolet; */
+}
+
+.icon-bar h2 {
+    font-family: "Abril Fatface", sans-serif;
+    margin-bottom: 5px;
+}
+
+.icon-bar p {
+    font-family: "Birthstone Bounce", cursive;
+}
+
+.nav-bar{
+    width: 700px;
+    height: 60px;
+    /* background-color: aquamarine; */
+   
+}
+
+.nav-bar ul {
+    display: flex; /* Flexbox for better alignment */
+    justify-content: space-between;
+    /* background-color: burlywood; */
+    height: 60px;
+    display: flex;
+    list-style: none;
+}
+
+.nav-bar li {
+    font-size:20px;
+    font-family: "Inclusive Sans", sans-serif;
+}
+
+.nav-bar li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+
+#li01, #li02, #li03, #li04 {
+    padding-top: 20px;
+}
+
+.profile {
+    color: white;
+    /* background-color: rgb(127, 151, 38); */
+    background: linear-gradient(180deg, #352618 0%, #3D2C1C 0.01%, #9B6F46 44%);
+    border: 0px solid ;
+    border-radius: 50%;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-bottom: 3px;
+    
+}
+
+.nav-bar span {
+    /* background-color: rgb(194, 124, 32); */
+     font-size: 35px; /*Adjust the size as needed */
+    vertical-align: middle; /* To vertically align with text */
+    padding-top: 1px;
+    
+}
+
+.image1 img{
+    width: 100%;
+    height: 512px;
+    border-radius: 10px;
+}
+
+.main-02{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main-02 h2{
+    margin-top: 120px;
+    font-size: 35px;
+    background-image: linear-gradient(90deg, #FFFFFF 0%, #999999 100%);
+    background-clip: text;
+    font-family: "Encode Sans SC";
+    /* -webkit-background-clip: text;  */
+    color: transparent;
+
+    
+}
+
+.main-02 p{
+    margin-top: 100px;
+    font-size: 25px;
+    background-image: linear-gradient(90deg, #FFFFFF 0%, #999999 100%);
+    background-clip: text;
+    font-family: "Cantarell";
+    /* -webkit-background-clip: text;  */
+    color: transparent;
+}
+
+.main-02 h1{
+    margin-top: 100px;
+    font-size: 50px;
+    background-image:  linear-gradient(90deg, #E8BC7B 0%, #9A7D52 58.5%, #D9B073 76.91%, #826945 100%);
+    background-clip: text;
+    /* -webkit-background-clip: text;  */
+    color: transparent;
+    font-family: "Abril Fatface";
+}
+
+.events{
+    margin-top: 120px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+   
+}
+
+.first,.second,.third,.fourth{
+    background: linear-gradient(180deg, #22180f 0%, #251b11 0.01%, #9B6F46 44%);
+    width: 530px;
+    height: 750px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 150px;
+    border-radius: 20px;
+}
+
+.first span,.second span,.third span,.fourth span{
+    color: white;
+    font-size: 30px;
+    font-family: "Encode Sans SC";
+}
+
+.events button{
+    margin-top: 25px;
+    width: 530px;
+    height: 80px;
+    font-size: x-large;
+    font-family: "Encode Sans SC";
+    background: linear-gradient(90deg, #352618 0%, #9B6F46 100%);
+    /* background-color: aliceblue; */
+    border: 0px;
+    color: white;
+    border-radius: 20px;
+}
+
+.events img{
+    margin-top: 40px;
+    margin-bottom: 15px;
+    background-color: #E8BC7B;
+    object-fit: cover;
+    height: 550px;
+    width: 450px;
+}
+
+.main-03{
+    background: #1E1E1E;
+    width: 100%;
+    height: 120px;
+}
+
+.main-03 img{
+    height: 40px;
+    width: 40px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.mail-id{
+    position: absolute;
+    display: inline-block;
+    margin-top: 48px;
+    margin-left: 13px;
+    font-size: 20px;
+    font-family: "Cantarell";
+}
+
+.socials{
+    color: white;
+    float: right;
+    /* display: inline-block; */
+    font-size: 20px;
+    margin-top: 48px;
+    font-family: "Cantarell";
+    /* margin-right: 500px; */
+}
+
+.main-03 a{
+    /* text-decoration: none; */
+    color: white;
+}
+
+.instagram{
+    float: right;
+    /* margin-right: 100px; */
+}
+
+.facebook{
+    float: right;
+    /* margin-right: 100px; */
+    
+}
+
+.twitter{
+    float: right;
+    margin-right: 100px;
+}

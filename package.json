@@ -1,0 +1,32 @@
+{
+  "name": "event-management",
+  "version": "1.0.0",
+  "description": "Event management app with OAuth login",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^8.6.0",
+    "express": "^4.21.1",
+    "express-session": "^1.17.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^5.13.22",
+    "nodemailer": "^6.9.15",
+    "nodemon": "^3.1.7",
+    "passport": "^0.4.1",
+    "passport-facebook": "^3.0.0",
+    "passport-github2": "^0.1.11",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-linkedin-oauth2": "^2.0.0",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "requests": "^0.3.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
