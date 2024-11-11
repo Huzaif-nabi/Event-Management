@@ -8,6 +8,7 @@ Prerequisites
 To run this project, ensure you have the following installed on your machine:
 
 Node.js (v14 or later)
+
 npm (comes with Node.js)
 
 git clone https://github.com/your-username/event-management-system.git
